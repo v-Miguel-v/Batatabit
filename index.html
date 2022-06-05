@@ -9,6 +9,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet"/>
         <link rel="shortcut icon" type="image/png" href="#"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/tablet.css" media="(min-width: 600px)"/>
+		<link rel="stylesheet" type="text/css" href="./css/desktop.css"/>
     </head>
 	<body>
 		<header class="header">
@@ -26,12 +28,12 @@
 			<a class="
 				dropdown-button
 				dropdown-button--pos-in-header
-			" href="#">Conoce Nuestros Planes <span class="dropdown-button__icon"></span></a>
+			" href="#plans-section">Conoce Nuestros Planes <span class="dropdown-button__icon"></span></a>
 		</header>
 		<main class="main">
 			<section class="
 				main-section
-				main-section--off-white-2-color
+				main-section--off-white-color
 				main-section--padding-60-65
 			">
 				<div class="main-section__decorative-img"></div>
@@ -45,7 +47,7 @@
 						main-text-container__subtitle--grey-2-color
 					">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
 				</div>
-				<section class="multiple-table-section">
+				<section class="mutiple-table-section">
 					<div class="table-section">
 						<h3 class="
 							table-section__title
@@ -73,7 +75,7 @@
 						</div>
 						<p class="table-section__last-update table-section__last-update--soft-orange-color"><b>Actualizado:</b> 19 de Julio 23:45</p>
 					</div>
-					<div class="table-section">
+					<div class="table-section table-section--margin-top">
 						<h3 class="
 							table-section__title
 							table-section__title--secundary-blue-color
@@ -149,6 +151,7 @@
 			<section class="
 				main-section
 				main-section--pos-relative
+				main-section--flex-centered
 			">
 				<h2 class="
 					main-text-container__title
@@ -160,8 +163,8 @@
 			<section class="
 				main-section
 				main-section--off-white-2-color
-				main-section--padding-60-65
-			">
+				main-section--padding-60-55
+			" id="plans-section">
 				<div class="main-text-container">
 					<h2 class="
 						main-text-container__title
@@ -172,8 +175,17 @@
 						main-text-container__subtitle--grey-2-color
 					">Cualquier plan te da acceso completo a nuestra plataforma.</p>
 				</div>
-				<section class="buy-plan-section buy-plan-section--pos-relative">
-					<article class="plan-card">
+				<section class="slide-plan-cards-section">
+					<article class="plan-card plan-card--left-margin">
+						<h4 class="plan-card__name">Pago Mensual</h4>
+						<div class="plan-card__price-container">
+							<span class="plan-card__dollar-symbol">$</span>
+							<p class="plan-card__price">19</p>
+						</div>
+						<p class="plan-card__difference">El Plan Básico.</p>
+						<a class="button" href="#">Escoger este <span class="button__icon"></span></a>
+					</article>
+					<article class="plan-card plan-card--pos-relative">
 						<p class="plan-card__recommended">Recomendado</p>
 						<h4 class="plan-card__name">Pago Anual</h4>
 						<div class="plan-card__price-container">
@@ -181,6 +193,15 @@
 							<p class="plan-card__price">99</p>
 						</div>
 						<p class="plan-card__difference">*Ahorras $129 comparado al plan mensual.</p>
+						<a class="button" href="#">Escoger este <span class="button__icon"></span></a>
+					</article>
+					<article class="plan-card plan-card--right-margin">
+						<h4 class="plan-card__name">Pago Trianual</h4>
+						<div class="plan-card__price-container">
+							<span class="plan-card__dollar-symbol">$</span>
+							<p class="plan-card__price">199</p>
+						</div>
+						<p class="plan-card__difference">*Ahorras $98 comparado al plan anual.</p>
 						<a class="button" href="#">Escoger este <span class="button__icon"></span></a>
 					</article>
 				</section>
