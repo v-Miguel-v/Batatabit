@@ -1,0 +1,90 @@
+.header__logo {
+	height: 50px;
+}
+
+.dropdown-button {
+	width: 285px;
+	height: 60px;
+	padding: 20px;
+	font-size: 1.7rem;
+}
+
+.dropdown-button--pos-in-header {
+    bottom: -30px;
+    left: calc(50% - 285px/2);
+}
+
+.main-section__decorative-img {
+	width: 250px;
+	height: 250px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.multiple-table-section {
+	justify-content: space-evenly;
+}
+
+.table-section {
+	max-width: 350px;
+	margin: 0;
+	margin-top: 80px;
+}
+
+.table-container {
+	height: 200px;
+}
+
+.table-section__title {
+	font-size: 2.0rem;
+}
+
+.table-4x2__left-column-item {
+	width: 60%;
+	font-size: 1.9rem;
+	padding-left: 25px;
+}
+
+.table-4x2__right-column-item {
+	width: 40%;
+	font-size: 1.8rem;
+}
+
+.table-4x2__endrow-trending-icon {
+	width: 15px;
+	height: 10px;
+}
+
+.table-section__last-update {
+	width: 225px;
+    height: 35px;
+    font-size: 1.4rem;
+    padding: 10px 0
+}
+
+.card {
+	margin: 25px 50px;
+    width: 470px;
+	max-width: unset;
+    height: 150px;
+	max-height: unset;
+}
+
+.card__title {
+	font-size: 2.1rem;
+	margin: 13px 0;
+}
+
+.card__subtitle {
+	font-size: 1.6rem;
+}
+
+.card__icon {
+	width: 30px;
+	height: 30px;
+}
+
+.slide-plan-cards-section {
+	height: 295px;
+	overflow-x: unset;
+}
