@@ -5,4 +5,6 @@ Esto es simplemente un pequeño proyecto realizado por mí para poner en prácti
 
 Las directrices seguidas en la elaboración de esta página y los assets utilizados fueron tomadas del [proyecto en figma de batabit](https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit).
 
-**Puedes ver la página aquí: https://v-miguel-v.github.io/Batatabit**
+---
+
+### **Puedes ver la página aquí: https://v-miguel-v.github.io/Batatabit**
